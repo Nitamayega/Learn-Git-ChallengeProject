@@ -11,11 +11,12 @@ Repositori ini digunakan untuk latihan Git dasar dan manajemen branch.
 mkdir ChallengeProject
 cd ChallengeProject
 ```
-
+![alt text](assets/1.png)
 ### 2. Buka Folder di Visual Studio Code
 ```bash
 code .
 ```
+![alt text](assets/2.png)
 
 ### 3. Buat File README.md
 ```bash
@@ -23,6 +24,7 @@ code .
 
 Ini adalah repositori latihan Git.
 ```
+![alt text](assets/3.png)
 
 ### 4. Inisialisasi Git dan Commit Awal
 ```bash
@@ -30,6 +32,7 @@ git init
 git add .
 git commit -m "init: project initialized"
 ```
+![alt text](assets/4.png)
 
 ### 5. Buat New Branch
 ```bash
@@ -49,3 +52,4 @@ git push -u origin main
 git push origin main
 git status -- melihat status perubahan saat ini
 ```
+
