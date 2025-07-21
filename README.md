@@ -30,3 +30,22 @@ git init
 git add .
 git commit -m "init: project initialized"
 ```
+
+### 5. Buat New Branch
+```bash
+git branch ParentGe
+```
+
+### 6. Setup Remot Repository
+- Bikin repo kosong di GitHub (tanpa README)
+- Salin URL GitHub
+```bash
+git remote add origin git@github.com:Nitamayega/Learn-Git-ChallengeProject.git
+git push -u origin main
+```
+
+### 6. Push ke Branch
+```bash
+git push origin main
+git status -- melihat status perubahan saat ini
+```
